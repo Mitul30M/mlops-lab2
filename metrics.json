@@ -1,0 +1,68 @@
+{
+    "model": "RandomForestClassifier",
+    "best_parameters": {
+        "max_depth": 10,
+        "max_features": "sqrt",
+        "min_samples_leaf": 1,
+        "min_samples_split": 5,
+        "n_estimators": 200
+    },
+    "cross_validation": {
+        "mean_accuracy": 1.0,
+        "std_accuracy": 0.0
+    },
+    "training_metrics": {
+        "accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1_score": 1.0,
+        "roc_auc": 1.0
+    },
+    "test_metrics": {
+        "accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1_score": 1.0,
+        "roc_auc": 1.0
+    },
+    "confusion_matrix": {
+        "true_negatives": 677,
+        "false_positives": 0,
+        "false_negatives": 0,
+        "true_positives": 1323
+    },
+    "feature_importance": {
+        "Battery_Voltage": 0.24921212937653595,
+        "Signal_Strength_Percent": 0.24376393774585925,
+        "Temperature_C": 0.20135498048788572,
+        "Fan_Speed_RPM": 0.15669103053219782,
+        "Temp_Category_Encoded": 0.05913832129398363,
+        "Temp_Humidity_Interaction": 0.032705242062727874,
+        "Power_Efficiency": 0.03202854218302116,
+        "Power_Consumption_W": 0.010809528933371395,
+        "Humidity_Percent": 0.006993778270090985,
+        "Traffic_Load": 0.004137089048248977,
+        "Tower_Age_Years": 0.002435975497511142,
+        "Age_Category_Encoded": 0.0007294445685660841
+    },
+    "dataset_info": {
+        "total_samples": 10000,
+        "train_samples": 8000,
+        "test_samples": 2000,
+        "num_features": 12,
+        "features": [
+            "Temperature_C",
+            "Battery_Voltage",
+            "Power_Consumption_W",
+            "Signal_Strength_Percent",
+            "Fan_Speed_RPM",
+            "Humidity_Percent",
+            "Traffic_Load",
+            "Tower_Age_Years",
+            "Temp_Humidity_Interaction",
+            "Power_Efficiency",
+            "Age_Category_Encoded",
+            "Temp_Category_Encoded"
+        ]
+    }
+}
