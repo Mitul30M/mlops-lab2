@@ -6,6 +6,10 @@ app = Flask(__name__)
 
 model = joblib.load("model.pkl")
 
+@app.route("/")
+def home():
+    return "Telecom Tower Prediction API is Running Successfully!"
+
 @app.route("/predict", methods=["POST"])
 def predict():
 
@@ -16,9 +20,7 @@ def predict():
     prediction = model.predict(df)
 
     return jsonify({
-
         "prediction": int(prediction[0])
-
     })
 
 app.run(debug=True)
