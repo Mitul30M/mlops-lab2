@@ -321,6 +321,10 @@ This project is provided as-is for educational and demonstration purposes.
 
 ---
 
+
 ## Contact
 
 For questions or issues, please refer to the notebook (`telecom_tower_failure_prediction.ipynb`) for detailed, step-by-step explanations of each pipeline stage.
+
+
+<img width="1891" height="1032" alt="Screenshot 2026-07-27 105504" src="https://github.com/user-attachments/assets/b56ce3dc-17cb-4979-957f-87db6b998790" />
